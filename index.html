@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0b13" />
+  <meta name="description" content="FOG: GLITCH RAID — 45 giây giải cứu Nexus tại Club Day FSC x Flame." />
+  <title>FOG: Glitch Raid — FSC x Flame Club Day</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.88em' font-size='88'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="aurora aurora-one" aria-hidden="true"></div><div class="aurora aurora-two" aria-hidden="true"></div>
+  <div id="app">
+    <header class="site-header">
+      <a class="brand" href="#home" id="brandHome" aria-label="FOG Glitch Raid về trang chủ"><span class="brand-mark">✦</span><span><b>FSC <i>x</i> FLAME</b><small>CLUB DAY EXPERIENCE</small></span></a>
+      <nav class="nav-links"><button type="button" data-page="home">TRANG CHỦ</button><button type="button" data-page="leaderboard">BẢNG XẾP HẠNG</button><button type="button" data-page="btc">MÀN HÌNH BTC</button></nav>
+      <div class="mode-chip"><span class="mode-dot"></span><span id="modeLabel">DEMO • DỮ LIỆU TRÊN MÁY NÀY</span></div>
+    </header>
+
+    <main>
+      <section class="page active" id="page-home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="pulse"></span> FOG EVENT PROTOCOL // 001 <span class="eyebrow-line"></span> OPEN</div>
+            <div class="display-title"><span class="title-small">WELCOME TO</span><strong>GLITCH<span class="title-outline"> RAID</span><span class="title-star">✳</span></strong></div>
+            <p class="hero-subtitle">45 GIÂY. 3 THỬ THÁCH. 1 NEXUS CẦN CỨU.</p>
+            <p class="hero-description">Một con Boss bí ẩn đã chiếm lấy hệ thống FOG. Bạn có đủ <b>phản xạ</b>, <b>độ tỉnh táo</b> và một chút <b>may mắn</b> để cứu Nexus?</p>
+            <div class="form-card">
+              <label class="input-label" for="nickname">CODENAME / TÊN ĐẶC VỤ</label>
+              <div class="input-wrap"><span>＠</span><input id="nickname" maxlength="16" autocomplete="off" spellcheck="false" placeholder="Nhập nickname của bạn" /><span class="max-label">MAX 16</span></div>
+              <p id="nameError" class="form-error" role="alert" aria-live="polite"></p>
+              <button type="button" class="primary-cta" id="startBtn"><span>VÀO ĐẤU TRƯỜNG</span><span class="cta-chevron">↗</span></button>
+              <p class="form-note">Không cần đăng nhập • Chạm hoặc click để chơi • Hoàn thành trong dưới 1 phút</p>
+            </div>
+            <div class="hero-stats"><div><b>45<span>S</span></b><small>THỜI GIAN</small></div><i></i><div><b>03</b><small>THỬ THÁCH</small></div><i></i><div><b>3K</b><small>ĐIỂM TỐI ĐA</small></div></div>
+          </div>
+          <div class="boss-showcase">
+            <div class="boss-ribbon"><span class="live-dot"></span> WORLD BOSS ONLINE <span id="bossWave">◆ WAVE 01</span></div>
+            <div class="boss-visual"><div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div><div class="boss-glow"></div><div class="boss-figure"><span class="boss-horns">✦</span><span class="boss-face">◈</span><span class="boss-glyph">⚡</span></div><span class="visual-cross cross-a">+</span><span class="visual-cross cross-b">+</span><span class="visual-code">ERROR_0xF09</span></div>
+            <div class="boss-data"><div class="boss-data-head"><span>THE GLITCH KING <small>LV. 99</small></span><b id="homeBossPercent">100%</b></div><div class="hp-track"><div class="hp-fill" id="homeBossBar"></div></div><div class="boss-data-foot"><span id="homeBossDamage">0 DMG GÂY RA</span><span id="homeBossCount">0 ĐẶC VỤ</span></div></div>
+            <div class="showcase-bottom"><span>⌁ CÙNG CLUB DAY HẠ GỤC BOSS</span><button type="button" data-page="leaderboard">XEM TOP 10 ↗</button></div>
+          </div>
+        </div>
+        <section class="mission-area"><div class="section-heading"><span>01 — YOUR MISSION</span><h2>CHỈ CÓ 3 MÀN. <em>DÁM THỬ KHÔNG?</em></h2><p>Cùng thử phản xạ, tư duy và sự chính xác của bạn. Chơi lại để phá kỷ lục!</p></div>
+          <div class="challenge-grid"><article class="challenge-card"><div class="challenge-top"><span>STAGE_01</span><span>12 SEC</span></div><div class="challenge-icon fire">✹</div><h3>FLAME TAP</h3><p>Chạm đúng ngọn lửa, né mục tiêu giả. Combo càng dài, điểm càng cao.</p><div class="challenge-tag">⚡ REACTION</div></article><article class="challenge-card"><div class="challenge-top"><span>STAGE_02</span><span>12 SEC</span></div><div class="challenge-icon troll">♜</div><h3>TROLL DETECTOR</h3><p>Chọn đáp án đúng trước khi hết giờ. Cẩn thận những cú lừa của Boss!</p><div class="challenge-tag">🧠 GAME IQ</div></article><article class="challenge-card"><div class="challenge-top"><span>STAGE_03</span><span>13 SEC</span></div><div class="challenge-icon clutch">◎</div><h3>CLUTCH MOMENT</h3><p>Canh nhịp thật chuẩn, tung cú kết liễu vào vùng PERFECT.</p><div class="challenge-tag">🎯 PRECISION</div></article></div>
+        </section>
+      </section>
+
+      <section class="page" id="page-game" aria-live="off">
+        <div class="game-container">
+          <div class="game-header"><div><div class="game-kicker" id="stageKicker">STAGE_01 // REACTION</div><h1 id="stageTitle">FLAME TAP</h1></div><div class="timer-pill"><span>TIME LEFT</span><b id="timer">12.0</b><small>SEC</small></div></div>
+          <div class="timer-track"><div id="timerFill"></div></div>
+          <div class="game-stats"><span>CODENAME: <b id="playingName">—</b></span><span>SCORE: <b id="liveScore">0000</b></span><span>COMBO: <b id="liveCombo">x0</b></span></div>
+          <div class="game-surface" id="gameSurface">
+            <div class="game-content" id="tapStage"><div class="stage-hint">CHẠM <b>✹ MÀU ĐỎ</b> • TRÁNH <b>✕ MÀU XANH</b></div><div class="tap-arena" id="tapArena" aria-label="Khu vực chạm mục tiêu"><div class="arena-grid"></div><div class="arena-id">FSC//AIMFIELD_01</div></div></div>
+            <div class="game-content hidden" id="trollStage"><div class="stage-hint">CHỌN ĐÁP ÁN HỢP LÝ TRƯỚC KHI HẾT GIỜ</div><div class="question-panel"><span id="questionIndex">QUESTION 01/06</span><h2 id="questionText">...</h2><div class="question-progress"><div id="questionFill"></div></div></div><div class="answers-grid" id="answerGrid"></div><div class="feedback-pill" id="answerFeedback"></div></div>
+            <div class="game-content hidden" id="clutchStage"><div class="stage-hint">NHẤN ĐÚNG TRUNG TÂM ĐỂ GHI <b>PERFECT</b>!</div><div class="clutch-panel"><span id="shotCounter">SHOT 1 / 4</span><div class="clutch-feedback" id="clutchFeedback">READY?</div><div class="clutch-meter" id="clutchMeter" role="img" aria-label="Thanh đo thời điểm, canh con trỏ trúng vùng chính giữa"><div class="zone-okay"></div><div class="zone-good"></div><div class="zone-perfect"></div><div class="marker" id="clutchMarker"></div></div><div class="meter-labels"><span>MISS</span><span>PERFECT</span><span>MISS</span></div><button class="hit-button" type="button" id="hitBtn">⚡ KẾT LIỄU!</button><small>Nhấn nút hoặc SPACE trên máy tính</small></div></div>
+            <div class="game-content hidden" id="transitionStage"><div class="transition-center"><div class="transition-symbol">✦</div><p id="transitionText">TIẾP TỤC NHIỆM VỤ</p><h2 id="transitionNext">TROLL DETECTOR</h2></div></div>
+          </div>
+          <div class="game-footnote"><span>FOG PROTOCOL V1.0</span><span>FSC x FLAME // CLUB DAY</span></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-result"><div class="result-layout"><div class="result-head"><span class="eyebrow">MISSION COMPLETE // REPORT GENERATED</span><h1>YOUR <em>LEGEND</em> STARTS HERE.</h1><p>Hoàn thành thử thách rồi! Cùng xem bạn đã khiến Glitch King đau đầu thế nào.</p></div><div class="player-card" id="playerCard"><div class="card-top"><span>FSC <i>x</i> FLAME</span><span>FOG / PLAYER IDENTIFICATION</span></div><div class="card-emblem" id="resultEmblem">♛</div><div class="card-tier" id="resultTier">CLUTCH KING</div><div class="card-name" id="resultName">FLAME_001</div><div class="card-divider"></div><div class="card-metrics"><div><small>TOTAL SCORE</small><b id="resultScore">0</b></div><div><small>BOSS DAMAGE</small><b id="resultDamage">0</b></div><div><small>LOCAL RANK</small><b id="resultRank">#1</b></div></div><div class="card-footer"><span>45 SECONDS TO SAVE THE NEXUS</span><span>✦ FSC 2026</span></div></div><div class="result-actions"><button type="button" class="primary-cta" id="saveCardBtn">LƯU PLAYER CARD <span>↧</span></button><button type="button" class="outline-btn" id="shareResultBtn">CHIA SẺ KẾT QUẢ ↗</button><button type="button" class="text-btn" id="playAgainBtn">↻ CHƠI LẠI (LUYỆN TẬP)</button><button type="button" class="outline-btn hidden" id="retrySubmitBtn">↻ GỬI LẠI KẾT QUẢ</button></div><p class="result-disclaimer" id="resultScope">Kết quả bản thử nghiệm lưu trên thiết bị này. Chưa phải bảng xếp hạng online liên thiết bị.</p><div class="recruit-banner"><div><span>THE NEXT CHAPTER</span><h3>JOIN THE FLAME.</h3><p>FSC x Flame không chỉ có tuyển thủ. Chúng mình còn có truyền thông, thiết kế, tổ chức sự kiện, bình luận và vận hành giải đấu.</p></div><button type="button" id="joinBtn" class="recruit-btn">TÌM HIỂU TẠI BOOTH ↗</button></div></div></section>
+
+      <section class="page" id="page-leaderboard"><div class="wide-page"><div class="eyebrow">RANKING DATABASE // LOCAL DEMO</div><div class="section-heading compact"><h1>HALL OF <em>FLAME</em></h1><p>Điểm cao nhất trên máy hiện tại. Khi kết nối máy chủ sự kiện, bảng xếp hạng mới có thể đồng bộ giữa các điện thoại.</p></div><div class="board-toolbar"><span class="status-pill">● DEMO / LOCAL ONLY</span><div class="board-tabs"><button type="button" class="active" data-filter="all">TẤT CẢ</button><button type="button" data-filter="mobile">MOBILE</button><button type="button" data-filter="desktop">PC / BTC</button></div></div><div class="leaderboard-list" id="leaderboardList"></div><div class="board-actions"><button type="button" class="primary-cta narrow" data-page="home">↖ QUAY LẠI CHƠI</button><span id="rankUpdate">Dữ liệu lưu trong trình duyệt</span></div></div></section>
+
+      <section class="page" id="page-btc"><div class="wide-page"><div class="btc-heading"><div><div class="eyebrow">FSC x FLAME // CONTROL ROOM</div><h1>EVENT <em>MONITOR</em></h1><p class="btc-note">Màn hình trình chiếu và demo cho BTC. Chưa đồng bộ dữ liệu giữa các thiết bị khi chưa kết nối backend.</p></div><div class="btc-controls"><button type="button" class="outline-btn" id="fullscreenBtn">⛶ TOÀN MÀN HÌNH</button><button type="button" class="text-btn" id="resetDemoBtn">XÓA DỮ LIỆU DEMO TRÊN MÁY</button></div></div><div class="btc-grid"><div class="monitor-boss"><span class="monitor-label">WORLD BOSS // CURRENT WAVE</span><div class="monitor-boss-icon">◈</div><h2>THE GLITCH KING</h2><div class="big-health" id="btcHpText">100% HP</div><div class="hp-track large"><div class="hp-fill" id="btcBossBar"></div></div><div class="monitor-two"><div><small>SÁT THƯƠNG</small><b id="btcDamage">0</b></div><div><small>NGƯỜI CHƠI</small><b id="btcPlayers">0</b></div></div></div><div class="monitor-leaders"><span class="monitor-label">TOP OPERATORS</span><div id="btcLeaders"></div></div></div><div class="btc-bottom"><div><h3>QR CHO KHÁCH</h3><p>Cho người tham gia quét QR bằng camera điện thoại để mở game. Máy BTC có thể mở chính liên kết này.</p><p class="qr-url" id="qrUrl">...</p><div id="joinChoices" class="hidden"><label for="joinUrlSelect" class="input-label">CHỌN IP WIFI / HOTSPOT CỦA LAPTOP</label><select id="joinUrlSelect" aria-label="Chọn IP truy cập bằng điện thoại"></select></div><button type="button" id="copyUrlBtn" class="outline-btn">SAO CHÉP LINK</button></div><div class="qr-tile"><img id="qrImg" alt="Mã QR để vào minigame FSC x Flame" /><span id="qrFallback">QR sẽ có khi website được mở qua một địa chỉ HTTPS</span></div></div></div></section>
+    </main>
+    <footer class="footer"><span>© 2026 FSC x FLAME</span><span>MADE FOR THE NEXT GENERATION OF LEGENDS</span><span>GLITCH RAID // v1.0</span></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="game.js" defer></script>
+</body>
+</html>
